@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(250, 42, 42);
+    font-family: 'Lobster', sans-serif;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Kalam', cursive;
+    border: 2px solid rgb(250, 42, 42);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border:none;
+    background:  rgb(250, 42, 42);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    margin-bottom: 200px;
+}
+.main{
+    background: url(../images/Rolex.jpg)no-repeat;
+    background-size: cover;
+    height: 150vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 500;
+    padding-bottom: 30px;
+    margin-right: 200px;
+    color:black;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(250, 42, 42);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-right:200px ;
+    margin-top: 150px;
+}
+
+.btn2 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(250, 42, 42);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-right:50px ;
+    margin-top: 150px;
+}
+
+.btn3{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(250, 42, 42);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-right:50px ;
+    margin-top: 150px;
+}
+
+.btn4{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(250, 42, 42);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    margin-right:50px ;
+    margin-top: 150px;
+}
+
+.btn1:hover{
+    background-color: rgb(250, 42, 42);
+    transition: 0.5s;
+
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
